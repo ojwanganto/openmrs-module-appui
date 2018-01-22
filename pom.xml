@@ -34,11 +34,11 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <uiframeworkVersion>3.11.0</uiframeworkVersion>
+        <uiframeworkVersion>3.3.1</uiframeworkVersion>
         <appframeworkVersion>2.9</appframeworkVersion>
-        <openMRSVersion>1.12.0</openMRSVersion>
-        <serialization.xstreamVersion>0.2.12</serialization.xstreamVersion>
-        <webservices.restVersion>2.16</webservices.restVersion>
+        <openMRSVersion>1.11.6</openMRSVersion>
+        <serialization.xstreamVersion>0.2.7</serialization.xstreamVersion>
+        <webservices.restVersion>2.11</webservices.restVersion>
     </properties>
 
     <dependencyManagement>
@@ -100,7 +100,7 @@
 				<version>${serialization.xstreamVersion}</version>
 				<scope>provided</scope>
 			</dependency>
-			<dependency>
+			<!--<dependency>
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>serialization.xstream-api-1.9</artifactId>
 				<version>${serialization.xstreamVersion}</version>
@@ -117,7 +117,7 @@
 				<artifactId>serialization.xstream-api-2.0</artifactId>
 				<version>${serialization.xstreamVersion}</version>
 				<scope>provided</scope>
-			</dependency>
+			</dependency>-->
         </dependencies>
     </dependencyManagement>
 
@@ -153,7 +153,7 @@
             <groupId>org.openmrs.module</groupId>
             <artifactId>serialization.xstream-api</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.openmrs.module</groupId>
             <artifactId>serialization.xstream-api-1.9</artifactId>
         </dependency>
@@ -164,7 +164,7 @@
         <dependency>
             <groupId>org.openmrs.module</groupId>
             <artifactId>serialization.xstream-api-2.0</artifactId>
-        </dependency>
+        </dependency>-->
 
     </dependencies>
 
